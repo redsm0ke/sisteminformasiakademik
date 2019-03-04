@@ -18,7 +18,7 @@
 
 		 *************************************
 		 **             Anggota             **
-		 ** - ALDO BEVINDRA MERAUKE	        **
+		 ** - ALDO BEVINDRA MERAUKE         **
 		 ** - DEDY SYAHPUTRA RIZKI HARAHAP  **
 		 ** - DIANEME STEFANUS TARIGAN      **
 		 ** - FERI WENDI PURBA              **
