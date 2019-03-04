@@ -39,8 +39,23 @@ Password = 1755272002 ( NIS + Tahun Lahir )
 ```
 ### Coding
 Aplikasi web **Sistem Informasi Akademik** ini menggunakan beberapa coding yaitu:
+
 No. | Nama | Version
 --- | -------- | -------
 1\. | [Bootstrap CSS](https://getbootstrap.com/) | 4.3.1
 2\. | [PHP Language](http://php.net/) | 7
 
+### Kelompok
+Aplikasi web **Sistem Informasi Akademik** ini dibuat karena ini adalah tugas project Jamaludin dan dibuat oleh **Kelompok 1**
+
+Anggota:
+
+No. | Nama
+--- | ---------
+1\. | ALDO BEVINDRA MERAUKE
+2\. | DEDY SYAHPUTRA RIZKI HARAHAP
+3\. | DIANEME STEFANUS TARIGAN
+4\. | FERI WENDI PURBA
+5\. | MUHAMMAD FIRZA YAFI
+6\. | MUHAMMAD RISKY RINALDI
+7\. | ZULFA RIZKI ZULKARNAEN
