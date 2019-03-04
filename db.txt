@@ -1,0 +1,96 @@
+database structure:
+
+tbl_berita
+ - no_urut            [ int 5      - not null - auto increasement ]
+ - judul              [ varchar 50  - not null ]
+ - isi                [ varchar 50 - not null ]
+ - tanggal            [ date        - not null ]
+ - penulis            [ varchar 20  - not null ]
+
+tbl_event
+ - no_urut            [ int 5      - not null - auto increasement ]
+ - judul              [ varchar 50  - not null ]
+ - kategori_event     [ varchar 15  - not null ]
+ - isi                [ varchar 50 - not null ]
+ - tanggal_mulai      [ date        - not null ]
+ - tanggal_selesai    [ date        - not null ]
+ - penulis            [ varchar 20  - not null ]
+
+tbl_pelajaran
+ - no_urut            [ int 5      - not null - auto increasement ]
+ - kode_pelajaran     [ varchar 5  - not null ]
+ - nama_pelajaran     [ varchar 20 - not null ]
+ - guru_pelajaran     [ varchar 20 - not null ]
+ - sifat_pelajaran    [ varchar 20 - not null ]
+
+tbl_pegawai
+ - no_urut            [ int 5      - not null - auto increasement ]
+ - nip                [ int 10     - not null ]
+ - nama               [ varchar 30 - not null ]
+ - tempat_lahir       [ varchar 15 - not null ]
+ - tanggal_lahir      [ date       - not null ]
+ - agama              [ varchar 15 - not null ]
+ - jenis_kelamin      [ varchar 15 - not null ]
+ - alamat             [ varchar 50 - not null ]
+ - no_hp              [ varchar 20 - not null ]
+
+tbl_guru
+ - no_urut            [ int 5      - not null - auto increasement ]
+ - nip                [ int 10     - not null ]
+ - nama               [ varchar 30 - not null ]
+ - tempat lahir       [ varchar 15 - not null ]
+ - tanggal lahir      [ date       - not null ]
+ - agama              [ varchar 15 - not null ]
+ - jenis kelamin      [ varchar 15 - not null ]
+ - alamat             [ varchar 50 - not null ]
+ - no hp              [ varchar 20 - not null ]
+
+tbl_siswa:
+ - no_urut            [ int 5      - not null - auto increasement ]
+ - nis                [ int 10     - not null ]
+ - nama               [ varchar 30 - not null ]
+ - kelas              [ varchar 15 - not null ]
+ - jenis_kelamin      [ varchar 15 - not null ]
+ - tempat_lahir       [ varchar 15 - not null ]
+ - tanggal_lahir      [ date       - not null ]
+ - agama              [ varchar 15 - not null ]
+ - alamat             [ varchar 50 - not null ]
+ - no_hp              [ varchar 20 - not null ]
+ - asal_smp           [ varchar 20 - not null ]
+
+tbl_user
+- no_urut             [ int 5      - not null - auto increasement ]
+- username            [ varchar 15 - not null ]
+- password            [ varchar 30 - not null ]
+- level               [ varchar 10 - not null ]
+
+tbl_mutasi
+ - no_urut            [ int 5      - not null - auto increasement ]
+ - nis                [ int 10     - not null ]
+ - nama               [ varchar 30 - not null ]
+ - jenis_mutasi       [ varchar 30 - not null ]
+ - tanggal_mutasi     [ date       - not null ]
+ - no_surat           [ varchar 15 - not null ]
+ - keterangan         [ varchar 20 - not null ]
+
+tbl_pelanggaran
+ - no_urut            [ int 5      - not null - auto increasement ]
+ - tahun_ajaran       [ varchar 15 - not null ]
+ - semester           [ varchar 15 - not null ]
+ - nis                [ int 10     - not null ]
+ - nama_siswa         [ varchar 30 - not null ]
+ - kelas              [ varchar 15 - not null ]
+ - tanggal            [ date       - not null ]
+ - jenis_pelanggaran  [ varchar 20 - not null ]
+ - poin               [ varchar 15 - not null ]
+ - sanksi             [ varchar 15 - not null ]
+
+tbl_keuangan
+ - no_urut            [ int 5      - not null - auto increasement ]
+ - no_tagihan         [ int 10     - not null ]
+ - nama_siswa         [ varchar 30 - not null ]
+ - jenis_tagihan      [ varchar 20 - not null ]
+ - tahun_ajaran       [ varchar 15 - not null ]
+ - semester           [ varchar 15 - not null ]
+ - jumlah_tagihan     [ int 10     - not null ]
+ - status             [ varchar 15 - not null ]
